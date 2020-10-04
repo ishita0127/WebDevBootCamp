@@ -2,6 +2,27 @@ body{
 	background-color: blue;
 }
 
-div{
-  background-color: #fffaa2;
+.intro{
+	background-color: white;
 }
+
+#text{
+	color: crimson;
+}
+
+img:hover{
+
+}
+
+h1:active{
+
+}
+
+/*id tag is more specific than the tag selector
+can use many classes in the tag
+<div class="big small"> 
+
+style
+.big{}
+.small{}
+ */

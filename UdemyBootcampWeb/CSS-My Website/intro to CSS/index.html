@@ -8,10 +8,11 @@
   <title>My Website</title>
 </head>
 <body>
-  <div class="">
+  <div class="intro">
     <h1>I'm Ishita</h1>
-    <p>A UX/UI Designer and Web Developer</p>
+    <p id="text">A UX/UI Designer and Web Developer</p>
   </div>
+  <hr>
 
 </body>
 </html>
@@ -20,11 +21,18 @@
 3 ways to do CSS:
 1. inline CSS: inside body tag style="background-color:#FFFFFF"
 CSS Colors <color> CSS MDN website to get names of all the colors without using hexcode.
-2. External CSS: make a style.css file and link it in the html file.
+2. External CSS: make a style.css file and link it in the html file. to reduce repetition.
 3. Internal CSS is added a style tag in the html file.
 <style>
   body{
   background-color: white;
+  width: 30%; it adjusts the width as the width of the page adjusts.
+  }
+  hr{
+  border-style: dotted none none;
+  or border-top-style:dotted;
+  border-color: grey;
+  border-width: 10%;
   }
 </style>
 -->
